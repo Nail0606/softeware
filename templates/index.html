@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Summarizer</title>
+</head>
+<body>
+    <h1>Text Summarizer</h1>
+    <form method="POST" action="/summarize">
+        <label for="num_sentences">Number of Sentences for Summary:</label>
+        <input type="number" name="num_sentences" id="num_sentences" value="3" min="1" max="10"><br>
+        <label for="text">Text:</label>
+        <textarea name="text" rows="10" cols="50" id="text" placeholder="Enter text..."></textarea><br>
+        <input type="submit" value="Summarize">
+    </form>
+</body>
+</html>
